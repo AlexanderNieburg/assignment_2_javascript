@@ -1,0 +1,43 @@
+body {
+  background-color: lightgrey;
+}
+h1 {
+    background-color: grey;
+    color: white;
+    text-align: left;
+    font-size: 40px;
+    padding: 10px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    border-width: 2px;
+    border-color: darkgrey;
+    border-style: solid;
+}
+
+p {
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 16px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 1px;
+    border-color: darkgrey;
+    border-style: solid;
+}
+
+.Row {
+    display: table;
+    border-spacing: 4px;
+}
+
+.Column1 {
+    display: table-cell;
+}
+
+.Column2 {
+    display: table-cell;
+    font-size: 26px;
+    color: red;
+}
